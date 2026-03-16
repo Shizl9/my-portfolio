@@ -1,0 +1,9 @@
+<div class="container text-center mt-5 p-4 pink-box">
+    <h1>Welcome to My Portfolio 🎀! </h1>
+    <h2>hello {{studentName}} ! 🎀</h2>
+    <img [src]="profileImage" class="profileImage">
+    <div class="button-group mt-3"><button class=" btn btn-primary" [disabled]="isDisabled">disabled Button</button>
+        <button class="btn pink-btn" (click)="sayHi()">Click Me</button>
+    </div>
+    <p class="mt-2">{{masseg}}</p>
+</div>
