@@ -1,3 +1,29 @@
+nav {
+    background-color: #ffe0f0; 
+    padding: 15px 20px;
+    text-align: center;
+    border-radius: 12px;
+    margin: 10px auto;
+    max-width: 500px;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+}
+
+
+nav a {
+    text-decoration: none; 
+    color: #a7132c;       
+    font-weight: bold;
+    margin: 0 15px;
+    padding: 8px 12px;
+    border-radius: 8px;
+    transition: 0.3s;
+}
+
+
+nav a:hover {
+    background-color: #ff9ad0; 
+    color: white;
+}
 .pink-box {
     background-color: #aae8f8;
 }
