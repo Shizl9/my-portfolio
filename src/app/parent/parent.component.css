@@ -1,0 +1,13 @@
+.box {
+  background-color: #f0acac;
+  border: 1px solid #d12e2e;
+  color: #100570;
+  font-weight: 900;
+  border-radius: 5px;
+  margin-top: 10px;
+}
+
+p {
+  font-weight: bold;
+  color: #333;
+}

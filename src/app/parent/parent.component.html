@@ -1,0 +1,4 @@
+<div class="container text-center mt-5 p-4 box">
+    <app-child [data]="message" (send)="onReceive($event)"></app-child>
+    <p>Received: {{ receivedData }}</p>
+</div>
